@@ -6,7 +6,7 @@ export default function About() {
     <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
       {/* Intro */}
       <div className="">
-        <div className=" lg:sticky lg:top-24">
+        <div className="lg:sticky lg:top-24 lg:self-start">
           <ProfileCard />
         </div>
       </div>
@@ -49,24 +49,15 @@ export default function About() {
         ))}
         <div className="mt-8 flex flex-wrap justify-between gap-6 lg:mt-12 lg:gap-10">
           <div className="flex flex-wrap items-start gap-6 lg:gap-10">
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>4</span>+
-              </h2>
-              <p className="mt-2 text-muted">Year of Experience</p>
-            </div>
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>43</span>+
-              </h2>
-              <p className="mt-2 text-muted">Project Completed</p>
-            </div>
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>35</span>+
-              </h2>
-              <p className="mt-2 text-muted">Happy Client</p>
-            </div>
+            {aboutData.stats.map((stat) => (
+              <div key={stat.label}>
+                <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
+                  <span>{stat.value}</span>
+                  {stat.suffix}
+                </h2>
+                <p className="mt-2 text-muted">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
         {/* Brands */}

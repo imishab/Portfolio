@@ -1,0 +1,12 @@
+[
+    {
+      "id": "dripside",
+      "image": "/images/projects/dripside.png",
+      "tags": ["MVP Product"]
+    },
+    {
+      "id": "astra",
+      "image": "/images/projects/astra.png",
+      "tags": ["Product Design"]
+    }
+  ]

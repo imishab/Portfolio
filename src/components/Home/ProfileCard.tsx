@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { PhoneCall, Copy, Linkedin, Github, Instagram } from "lucide-react";
 import { useState } from "react";
+import aboutData from "@/data/about.json";
 
 export default function ProfileCard() {
   const [copied, setCopied] = useState(false);
@@ -22,13 +23,10 @@ export default function ProfileCard() {
         <img src="/images/me3.png" alt="" className="   " />
       </div>
       <div className="mt-6">
-        <h3 className="text-2xl font-semibold dark:text-light">Mishab 👋</h3>
+        <h3 className="text-2xl font-semibold dark:text-light">I'm Mishab 👋</h3>
         <p className="mt-2 text-muted dark:text-light/70">
-          A Passionate Full Stack Developer having 4+ years of experiences in
-          building scalable web and mobile applications. Proficient in React.js,
-          Node.js, AWS, and MongoDB, with expertise in Agile development, API
-          design, and performance optimization.{" "}
-          <Link href="/about" className="font-semibold text-dark underline">
+          {aboutData.shortBio}{" "}
+          <Link href="/about" className="font-semibold text-dark dark:text-light underline">
             Read More
           </Link>
         </p>

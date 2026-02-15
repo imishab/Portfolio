@@ -21,7 +21,7 @@ export default function Contact() {
     <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
       {/* Intro */}
       <div className="">
-        <div className=" lg:sticky lg:top-24">
+        <div className="lg:sticky lg:top-24 lg:self-start">
           <ProfileCard />
         </div>
       </div>

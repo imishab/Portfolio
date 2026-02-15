@@ -1,18 +1,6 @@
 import { ArrowRight, Eye } from "lucide-react";
 import Link from "next/link";
-
-const recentProjects = [
-  {
-    id: "dripside",
-    image: "/images/projects/dripside.png",
-    tags: ["MVP Product"],
-  },
-  {
-    id: "astra",
-    image: "/images/projects/astra.png",
-    tags: ["Product Design"],
-  },
-];
+import recentProjects from "@/data/Home/recentprojects.json";
 
 export default function Projects() {
   return (

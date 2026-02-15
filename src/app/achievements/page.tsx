@@ -5,23 +5,22 @@ export default function Achievements() {
     <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
       {/* Intro */}
       <div className="">
-        <div className=" lg:sticky lg:top-24">
+        <div className="lg:sticky lg:top-24 lg:self-start">
           <ProfileCard />
         </div>
       </div>
       <>
-        {/* Blog */}
+        {/* Achievements */}
         <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
           <div className="">
             <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light  lg:leading-tight">
               My Achievements
             </h2>
             <p className="mt-2 text-lg text-muted dark:text-light/70">
-              Dive into my portfolio and discover a world of innovative
-              solutions
+              A collection of certificates and achievements that I have earned throughout my career.
             </p>
           </div>
-          {/* Blog */}
+          {/* Achievements */}
           <div className="mt-10 lg:mt-14">
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2">
               <div className="">

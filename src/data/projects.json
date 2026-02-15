@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dripside",
+    "title": "Dripside",
+    "image": "/images/projects/dripside-2.png",
+    "description": "An artist-support platform enabling creators to sell their designs on customizable products like t-shirts.",
+    "tags": ["Website"],
+    "url": "www.dripside.in - Coming Soon",
+    "href": "https://www.dripside.in"
+  },
+  {
+    "id": "astramedicare",
+    "title": "Astramedicare",
+    "image": "/images/projects/astra.png",
+    "description": "Astra MediCare in Kozhikode is one of the leading businesses in the Dermatologists. Also known for...",
+    "tags": ["Website"],
+    "url": "www.atramedicare.in",
+    "href": "https://www.atramedicare.in"
+  },
+  {
+    "id": "forskor",
+    "title": "Forskor Restaurent",
+    "image": "/images/projects/forksor.png",
+    "description": "Forskor Restaurant is a F&B-Casual Dining outlet located in the heart of the Bangalore city.",
+    "tags": ["WebApp"],
+    "url": "www.forksor.in",
+    "href": "https://www.forksor.in"
+  },
+  {
+    "id": "cospace",
+    "title": "CoSpace",
+    "image": "/images/projects/cospace.png",
+    "description": "CoSpace is more than just a co-working platform; it's your one-stop destination for...",
+    "tags": ["Website"],
+    "url": "www.cospaceforyou.in - Coming Soon",
+    "href": "https://www.cospaceforyou.in"
+  }
+]

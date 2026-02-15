@@ -1,4 +1,5 @@
 {
+  "shortBio": "A Passionate Full-Stack Developer with 4+ years of experience in building scalable web and mobile applications. Proficient in React.js, Node.js, AWS, and MongoDB, with expertise in Agile development, API design, and performance optimization.",
   "intro": [
     "A Passionate Full-Stack Developer with 4+ years of experience in building scalable web and mobile applications. Proficient in React.js, Node.js, AWS, and MongoDB, with expertise in Agile development, API design, and performance optimization. Passionate about developing efficient, user-friendly applications and optimising system performance. Seeking opportunities to contribute to dynamic and innovative teams.",
     "When it comes to technology, I'm always eager to stay ahead of the curve. Whether it's learning new languages or diving into emerging trends, I thrive on embracing new challenges and pushing the boundaries of what's possible in the digital realm. My relentless drive for excellence fuels my commitment to delivering top-notch solutions that empower businesses to thrive in today's dynamic digital landscape."
@@ -13,25 +14,114 @@
       "content": "Through valuing the power of brand identity within my web design, I have helped to proliferate the digital presence of countless businesses. Every aspect of all web pages I create is crafted to integrate business metrics, optimising for conversions, sales, page times and registrations. Whatever you want for your business, I will ensure your website helps you achieve it."
     }
   ],
+  "stats": [
+    {
+      "value": "4",
+      "suffix": "+",
+      "label": "Year of Experience"
+    },
+    {
+      "value": "43",
+      "suffix": "+",
+      "label": "Project Completed"
+    },
+    {
+      "value": "35",
+      "suffix": "+",
+      "label": "Happy Client"
+    }
+  ],
   "tools": [
-    { "src": "/images/icons/ts.png", "alt": "TypeScript", "iconClass": "w-12" },
-    { "src": "/images/icons/github.png", "alt": "GitHub", "iconClass": "w-12" },
-    { "src": "/images/icons/aws.png", "alt": "AWS", "iconClass": "w-12" },
-    { "src": "/assets/img/framer.svg", "alt": "Framer", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/mongodb.png", "alt": "MongoDB", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/assets/img/figma.svg", "alt": "Figma", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/native.png", "alt": "React Native", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/nextjs.png", "alt": "Next.js", "iconClass": "w-12" },
-    { "src": "/images/icons/react.png", "alt": "React", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/nodejs.png", "alt": "Node.js", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/git.png", "alt": "Git", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/docker.png", "alt": "Docker", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/php.png", "alt": "PHP", "iconClass": "w-12" },
-    { "src": "/images/icons/mysql.png", "alt": "MySQL", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/vscode.png", "alt": "VS Code", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/tailwind.png", "alt": "Tailwind", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/redux.png", "alt": "Redux", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
-    { "src": "/images/icons/expo.png", "alt": "Expo", "iconClass": "w-12" }
+    {
+      "src": "/images/icons/ts.png",
+      "alt": "TypeScript",
+      "iconClass": "w-12"
+    },
+    {
+      "src": "/images/icons/github.png",
+      "alt": "GitHub",
+      "iconClass": "w-12"
+    },
+    {
+      "src": "/images/icons/aws.png",
+      "alt": "AWS",
+      "iconClass": "w-12"
+    },
+    {
+      "src": "/assets/img/framer.svg",
+      "alt": "Framer",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/mongodb.png",
+      "alt": "MongoDB",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/assets/img/figma.svg",
+      "alt": "Figma",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/native.png",
+      "alt": "React Native",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/nextjs.png",
+      "alt": "Next.js",
+      "iconClass": "w-12"
+    },
+    {
+      "src": "/images/icons/react.png",
+      "alt": "React",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/nodejs.png",
+      "alt": "Node.js",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/git.png",
+      "alt": "Git",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/docker.png",
+      "alt": "Docker",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/php.png",
+      "alt": "PHP",
+      "iconClass": "w-12"
+    },
+    {
+      "src": "/images/icons/mysql.png",
+      "alt": "MySQL",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/vscode.png",
+      "alt": "VS Code",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/tailwind.png",
+      "alt": "Tailwind",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/redux.png",
+      "alt": "Redux",
+      "iconClass": "h-8 w-8 lg:h-10 lg:w-10"
+    },
+    {
+      "src": "/images/icons/expo.png",
+      "alt": "Expo",
+      "iconClass": "w-12"
+    }
   ],
   "education": [
     {

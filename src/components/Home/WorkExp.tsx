@@ -1,47 +1,4 @@
-const workExperience = [
-  {
-    period: "2019 - 2020",
-    company: "AizonLabs",
-    role: "Web Developer",
-    logo: "/images/company/al.png",
-  },
-  {
-    period: "2020 - 2021",
-    company: "Corest",
-    role: "Web Developer",
-    logo: "/images/company/corest.png",
-  },
-  {
-    period: "2021 - PRESENT",
-    company: "VectorCrop",
-    role: "Founder",
-    logo: "/images/company/vc.png",
-  },
-  {
-    period: "2024 - 2025",
-    company: "Fortune Bucket",
-    role: "Web Developer",
-    logo: "/images/company/fb.png",
-  },
-  {
-    period: "2025 - 2026",
-    company: "Flowflex",
-    role: "Software Developer",
-    logo: "/images/company/flowflex.png",
-  },
-  {
-    period: "2026 - PRESENT",
-    company: "Dentobees",
-    role: "App Developer",
-    logo: "/images/company/dentobees.png",
-  },
-  {
-    period: "2026 - PRESENT",
-    company: "Pacific Group",
-    role: "Software Engineer",
-    logo: "/images/company/pacific.png",
-  },
-];
+import workExperience from "@/data/Home/experience.json";
 
 // Duplicated for seamless infinite scroll
 const scrollItems = [...workExperience, ...workExperience];
