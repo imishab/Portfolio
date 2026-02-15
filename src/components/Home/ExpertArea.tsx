@@ -1,10 +1,10 @@
 const expertAreas = [
   { name: "NextJS", icon: "/images/icons/nextjs.png" },
+  { name: "Swift", icon: "/images/icons/swift.png" },
   { name: "React Native", icon: "/images/icons/native.png" },
   { name: "NodeJs", icon: "/images/icons/nodejs.png" },
   { name: "AWS", icon: "/images/icons/aws.png" },
   { name: "Figma", icon: "/assets/img/figma.svg" },
-  { name: "MongoDB", icon: "/images/icons/mongodb.png" },
 ];
 
 export default function ExpertArea() {

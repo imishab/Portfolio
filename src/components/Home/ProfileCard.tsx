@@ -20,7 +20,7 @@ export default function ProfileCard() {
   return (
     <div className="rounded-2xl bg-white p-6 shadow transition-shadow hover:shadow-lg dark:bg-black dark:shadow-dark">
       <div className="aspect-1/2 overflow-hidden rounded-lg bg-light  text-center dark:bg-dark-2">
-        <img src="/images/me3.png" alt="" className="   " />
+        <img src="/images/me5.png" alt="" className="   " />
       </div>
       <div className="mt-6">
         <h3 className="text-2xl font-semibold dark:text-light">I'm Mishab 👋</h3>

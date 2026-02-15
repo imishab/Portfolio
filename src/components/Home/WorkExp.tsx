@@ -9,7 +9,7 @@ export default function WorkExp() {
       <h3 className="sticky top-0 z-10  bg-white px-6 py-4 text-xl font-semibold text-dark dark:border-dark-2 dark:bg-black dark:text-light md:text-2xl">
         Work Experience
       </h3>
-      <div className="relative max-h-[220px] overflow-hidden">
+      <div className="relative max-h-[350px] overflow-hidden">
         <div className="animate-work-exp-scroll flex flex-col gap-5 py-5 group-hover:[animation-play-state:paused]">
           {scrollItems.map((item, index) => (
             <div
