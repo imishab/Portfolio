@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "title": "Web Dev with JS & React JS",
+    "image": "/images/certificates/1.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/1eypil"
+  },
+  {
+    "id": "2",
+    "title": "Bootcamp of Web dev with JS & React JS",
+    "image": "/images/certificates/2.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/31iwD"
+  },
+  {
+    "id": "3",
+    "title": "React JS & Web dev JS",
+    "image": "/images/certificates/3.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/1xYgos"
+  },
+  {
+    "id": "4",
+    "title": "Certificate of Appreciation",
+    "image": "/images/certificates/4.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/x1xPg"
+  },
+  {
+    "id": "5",
+    "title": "Javascript and backend with node JS",
+    "image": "/images/certificates/5.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/TdkPA"
+  },
+  {
+    "id": "6",
+    "title": "Bootcamp of Javascript and backend with node js",
+    "image": "/images/certificates/6.png",
+    "description": "This certificate is issued by Shape AI.",
+    "verifyUrl": "https://www.cert.shapeai.tech/verify/2r835m"
+  },
+  {
+    "id": "7",
+    "title": "Full Stack Development With React and Drupal",
+    "image": "/images/certificates/7.png",
+    "description": "This certificate is issued by Firefiles - Software Development Division, Department of Computer Science, St. Thomas College(Autonomous), Thrissur, Kerala.",
+    "verifyUrl": "https://imishab.github.io/assets/pdf/Certificate%20of%20FSD-REACT.pdf"
+  }
+]
