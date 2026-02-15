@@ -1,5 +1,4 @@
 import ProfileCard from "@/components/Home/ProfileCard";
-import React from "react";
 
 export default function Projects() {
   return (

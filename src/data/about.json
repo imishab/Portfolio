@@ -1,0 +1,56 @@
+{
+  "intro": [
+    "A Passionate Full-Stack Developer with 4+ years of experience in building scalable web and mobile applications. Proficient in React.js, Node.js, AWS, and MongoDB, with expertise in Agile development, API design, and performance optimization. Passionate about developing efficient, user-friendly applications and optimising system performance. Seeking opportunities to contribute to dynamic and innovative teams.",
+    "When it comes to technology, I'm always eager to stay ahead of the curve. Whether it's learning new languages or diving into emerging trends, I thrive on embracing new challenges and pushing the boundaries of what's possible in the digital realm. My relentless drive for excellence fuels my commitment to delivering top-notch solutions that empower businesses to thrive in today's dynamic digital landscape."
+  ],
+  "sections": [
+    {
+      "title": "Collaborative at any scale",
+      "content": "Whether under a white label, or working as an independent web designer or developer, I have worked collaboratively with myriad companies and agencies alike. Adept at working remotely within an agile team, I utilise joining communication channels such as meet or zoom to deliver outstanding web and application design services."
+    },
+    {
+      "title": "Take your business to the next level",
+      "content": "Through valuing the power of brand identity within my web design, I have helped to proliferate the digital presence of countless businesses. Every aspect of all web pages I create is crafted to integrate business metrics, optimising for conversions, sales, page times and registrations. Whatever you want for your business, I will ensure your website helps you achieve it."
+    }
+  ],
+  "tools": [
+    { "src": "/images/icons/ts.png", "alt": "TypeScript", "iconClass": "w-12" },
+    { "src": "/images/icons/github.png", "alt": "GitHub", "iconClass": "w-12" },
+    { "src": "/images/icons/aws.png", "alt": "AWS", "iconClass": "w-12" },
+    { "src": "/assets/img/framer.svg", "alt": "Framer", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/mongodb.png", "alt": "MongoDB", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/assets/img/figma.svg", "alt": "Figma", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/native.png", "alt": "React Native", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/nextjs.png", "alt": "Next.js", "iconClass": "w-12" },
+    { "src": "/images/icons/react.png", "alt": "React", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/nodejs.png", "alt": "Node.js", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/git.png", "alt": "Git", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/docker.png", "alt": "Docker", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/php.png", "alt": "PHP", "iconClass": "w-12" },
+    { "src": "/images/icons/mysql.png", "alt": "MySQL", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/vscode.png", "alt": "VS Code", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/tailwind.png", "alt": "Tailwind", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/redux.png", "alt": "Redux", "iconClass": "h-8 w-8 lg:h-10 lg:w-10" },
+    { "src": "/images/icons/expo.png", "alt": "Expo", "iconClass": "w-12" }
+  ],
+  "education": [
+    {
+      "icon": "/images/icons/ktu.png",
+      "institution": "Apj Abdul Kalam Technological University",
+      "degree": "Master's in Computer Application (Attended KMCT College of Engineering)",
+      "period": "2022 - 2024"
+    },
+    {
+      "icon": "/images/icons/ku.png",
+      "institution": "University Of Calicut",
+      "degree": "Bachelor's in Computer Application (Attended IHRD College of Applied Science)",
+      "period": "2020 - 2022"
+    },
+    {
+      "icon": "/images/icons/kbhs.png",
+      "institution": "Kerala Board Of Higher Secondary",
+      "degree": "Plus Two (Computer Commerce) (Attended AMHSS Kinalure)",
+      "period": "2018 - 2020"
+    }
+  ]
+}

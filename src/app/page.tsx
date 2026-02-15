@@ -4,7 +4,6 @@ import ProfileCard from "@/components/Home/ProfileCard";
 import Projects from "@/components/Home/Projects";
 import Services from "@/components/Home/Services";
 import WorkExp from "@/components/Home/WorkExp";
-import React from "react";
 
 export default function index() {
   return (

@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+/* Seamless vertical scroll for Work Experience */
+@keyframes workExpScroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+.animate-work-exp-scroll {
+  animation: workExpScroll 20s linear infinite;
+}
 body {
     padding: 0px 50px 50px 50px;
 }

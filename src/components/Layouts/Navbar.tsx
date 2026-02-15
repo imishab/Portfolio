@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       {/* Header */}
-      <header className="sticky top-0 z-50" style={{ marginBottom: 15 }}>
+      <header className="sticky top-0 z-50">
         <div className="">
           <div className="flex items-center justify-between rounded-2xl bg-white p-3 shadow-lg dark:bg-black dark:shadow-dark">
             {/* Logo */}

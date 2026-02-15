@@ -1,6 +1,6 @@
-import React from "react";
+"use client";
 import Link from "next/link";
-import { PhoneCall, Copy } from "lucide-react";
+import { PhoneCall, Copy, Linkedin, Github, Instagram } from "lucide-react";
 import { useState } from "react";
 
 export default function ProfileCard() {
@@ -17,7 +17,7 @@ export default function ProfileCard() {
     }
   };
   return (
-    <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
+    <div className="rounded-2xl bg-white p-6 shadow transition-shadow hover:shadow-lg dark:bg-black dark:shadow-dark">
       <div className="aspect-1/2 overflow-hidden rounded-lg bg-light  text-center dark:bg-dark-2">
         <img src="/images/me3.png" alt="" className="   " />
       </div>
@@ -57,28 +57,28 @@ export default function ProfileCard() {
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-lg  border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring "
           >
-            <i class="bi bi-linkedin text-lg"></i>
+           <Linkedin size={20} />
           </a>
           <a
             href="https://github.com/imishab"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-lg  border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring"
           >
-            <i class="bi bi-github text-lg"></i>
+            <Github size={20} />
           </a>
           <a
             href="https://www.instagram.com/i.mishab/"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-lg  border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring"
           >
-            <i class="bi bi-instagram text-lg"></i>
+            <Instagram size={20} />
           </a>
           <a
             href="https://www.behance.net/i-mishab"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-lg  border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring"
           >
-            <i class="bi bi-behance text-lg"></i>
+            <Instagram size={20} />
           </a>
         </div>
       </div>

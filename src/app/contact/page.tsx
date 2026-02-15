@@ -1,5 +1,5 @@
+"use client";
 import ProfileCard from "@/components/Home/ProfileCard";
-import React from "react";
 import Link from "next/link";
 import { PhoneCall, Copy } from "lucide-react";
 import { useState } from "react";
@@ -125,7 +125,7 @@ export default function Contact() {
                   Name
                 </label>
                 <input
-                  required=""
+                  required
                   type="text"
                   id="name"
                   name="name"
@@ -141,7 +141,7 @@ export default function Contact() {
                   Email
                 </label>
                 <input
-                  required=""
+                  required
                   type="email"
                   id="email"
                   name="email"
@@ -158,7 +158,7 @@ export default function Contact() {
                 Subject
               </label>
               <input
-                required=""
+                required
                 type="text"
                 id="subject"
                 name="subject"
@@ -174,7 +174,7 @@ export default function Contact() {
                 Message
               </label>
               <textarea
-                required=""
+                required
                 id="message"
                 name="message"
                 placeholder="Type details about your inquiry"
@@ -212,7 +212,7 @@ export default function Contact() {
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="h-full w-full object-cover"

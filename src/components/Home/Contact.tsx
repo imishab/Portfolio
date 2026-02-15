@@ -2,14 +2,15 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
-      <marquee
-        behavior="scroll"
-        direction="left"
-        className="overflow-hidden text-nowrap rounded-lg bg-light p-3 text-lg font-medium text-muted dark:bg-dark-2"
-      >
-        Available For Hire 🚀 Crafting Digital Experiences 🎨
-      </marquee>
+    <div className="rounded-2xl bg-white p-6 shadow transition-shadow hover:shadow-lg dark:bg-black dark:shadow-dark">
+      <div className="group overflow-hidden rounded-lg bg-light p-3 dark:bg-dark-2">
+        <div className="flex min-w-full shrink-0 animate-infinite-scroll gap-6">
+          <span className="inline-block whitespace-nowrap text-lg font-medium text-muted dark:text-light/70">
+            Available For Collaboration 🚀 Available For Freelance Works 🚀 
+          </span>
+         
+        </div>
+      </div>
       <h2 className="mt-4 text-[40px] font-semibold leading-snug text-dark dark:text-light">
         Let's👋 <br />
         Work Together
